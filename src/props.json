@@ -1,0 +1,162 @@
+{
+    "theme_frame": {
+        "type": "image",
+        "description": "This is an image, this image represents the area behind the tabs.",
+        "min-height": "80px",
+        "min-width": null,
+        "note": null
+    },
+    "theme_toolbar": {
+        "type": "image",
+        "description": "This is an image that covers the area of the current tab and the toolbar below it.",
+        "min-height": "119px",
+        "min-width": null,
+        "note": null
+    },
+    "theme_tab_background": {
+        "type": "image",
+        "description": "This is an image, this represents all the inactive tabs.",
+        "min-height": "65px",
+        "min-width": null,
+        "note": null
+    },
+    "theme_ntp_background": {
+        "type": "image",
+        "description": "This is the image that is displayed at the large white space in the browser, in the new tab page.",
+        "min-height": "65px",
+        "min-width": null,
+        "note": "In case of pattern use: ntp_background_repeat, in other case ntp_background_alignment"
+    },
+    "theme_frame_inactive": {
+        "type": "image",
+        "description": "This is an image, representing the area behind the tabs, when the chrome window is out of focus/inactive.",
+        "min-height": "80px",
+        "min-width": null,
+        "note": null
+    },
+    "theme_frame_incognito": {
+        "type": "image",
+        "description": "This is an image, representing the area behind the tabs, when the chrome window is in incognito mode.",
+        "min-height": "80px",
+        "min-width": null,
+        "note": null
+    },
+    "theme_frame_incognito_inactive": {
+        "type": "image",
+        "description": "This is also an image, similar to theme_frame_inactive, but this image is for the inactive frame of a window in incognito mode.",
+        "min-height": "80px",
+        "min-width": null,
+        "note": null
+    },
+    "theme_tab_background_incognito": {
+        "type": "image",
+        "description": "This is an image, this represents all the inactive tabs in incognito mode.",
+        "min-height": "65px",
+        "min-width": null,
+        "note": null
+    },
+    "theme_tab_background_v": {
+        "type": "image",
+        "description": "This is an image, this represents all the inactive tabs that is a mystery.",
+        "min-height": "65px",
+        "min-width": null,
+        "note": null
+    },
+    "theme_button_background": {
+        "type": "image",
+        "description": "This image specifies the background for various buttons (stop, refresh, back, forward, etc.) in the toolbar.",
+        "min-height": "29px",
+        "min-width": "27px",
+        "note": null
+    },
+    "theme_ntp_attribution": {
+        "type": "image",
+        "description": "This is the image that is displayed at the bottom right corner of the new tab page.  Chrome automatically puts a heading \"Theme created by\" and below that displays whatever image you give as theme_ntp_attribution.",
+        "min-height": null,
+        "min-width": null,
+        "note": null
+    },
+    "theme_window_control_background": {
+        "type": "image",
+        "description": "This image specifies the background for the window control buttons (minimize, maximize, close and new tab).",
+        "min-height": "16px",
+        "min-width": null,
+        "note": null
+    },
+    "frame": {
+        "type": "color",
+        "description": "This color element specifies the color of the frame area of the browser (the area behind the tabs + the border)."
+    },
+    "frame_inactive": {
+        "type": "color",
+        "description": "This color element specifies the color of the frame area of the browser but when the window is inactive/out of focus (the area behind the tabs + the border)."
+    },
+    "frame_incognito": {
+        "type": "color",
+        "description": "This is a color element similar to \"frame\" ,but under the incognito mode."
+    },
+    "frame_incognito_inactive": {
+        "type": "color",
+        "description": "This is a color element similar to \"frame_inactive\" ,but under the incognito mode."
+    },
+    "toolbar": {
+        "type": "color",
+        "description": "This is a color element that specifies the background color of the bookmarks bar, that is visible only in the new tab page, when you press the shortcut keys Ctrl+B or CMD+B."
+    },
+    "tab_text": {
+        "type": "color",
+        "description": "This color element specifies the color of the title text of the current tab (tab title name of current tab), the text in the status bar and the close cross on the downloads bar."
+    },
+    "tab_background_text": {
+        "type": "color",
+        "description": "This color element specifies the color of the title text of all the inactive tabs/out of focus tabs."
+    },
+    "bookmark_text": {
+        "type": "color",
+        "description": "This color element specifies the color of the text of bookmarks in the toolbar and the text for the download bar that appears at the bottom."
+    },
+    "ntp_background": {
+        "type": "color",
+        "description": "This color element specifies the color of the background of the new tab page (covers all areas that is not mapped by theme_ntp_background)."
+    },
+    "ntp_text": {
+        "type": "color",
+        "description": "This color element specifies the color of all the text that appears in the new tab page (tips, quick access labels, etc.)."
+    },
+    "ntp_link": {
+        "type": "color",
+        "description": "This color element specifies the color of all the links that may appear in the new tab page."
+    },
+    "ntp_link_underline": {
+        "type": "color",
+        "description": "This color element specifies the color of the underline of all links in the new tab page (the color of underline of the ntp_link element)."
+    },
+    "ntp_header": {
+        "type": "color",
+        "description": "This color element specifies the color for the frame of quick link buttons, when one hovers the mouse over it."
+    },
+    "ntp_section": {
+        "type": "color",
+        "description": "This color element specifies the color for the border of the quick link buttons (see help image) and also the background color for the recently closed bar that appears above the tips area."
+    },
+    "ntp_section_text": {
+        "type": "color",
+        "description": "This color element specifies the color of all the text that appears in the section area (currently only the text \"Recently closed\" derives it's color from this)."
+    },
+    "ntp_section_link": {
+        "type": "color",
+        "description": "This color element specifies the color of all the links that appear in the section area.  Currently all the links in the \"Recently closed\" bar take their color from this."
+    },
+    "ntp_section_link_underline": {
+        "type": "color",
+        "description": "This color element specifies the color of underlines of all the links that appear in the section area (underliection_link element)."
+    },
+    "control_background": {
+        "type": "color",
+        "description": "This should specify the color of the control buttons of the window-minimize, maximize and close."
+    },
+    "button_background": {
+        "type": "color",
+        "description": "This color element specifies the color for the background of all the buttons in the toolbar area (back, forward, bookmark, etc.)."
+    }
+}
